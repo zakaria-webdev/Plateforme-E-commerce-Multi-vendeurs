@@ -1,10 +1,10 @@
-SET DEFINE OFF;
+
 
 --VENDEUR
 INSERT INTO VENDEUR (id_vend, nomVend, email, telephone, boutique, date_inscription) VALUES (1, 'ElectroMaroc', 'contact@electromaroc.ma', '0611223344', 'ElectroMaroc Store', TO_DATE('2024-01-15', 'YYYY-MM-DD'));
 INSERT INTO VENDEUR (id_vend, nomVend, email, telephone, boutique, date_inscription) VALUES (2, 'FashionStyle', 'support@fashionstyle.ma', '0655667788', 'FashionStyle Boutique', TO_DATE('2024-02-20', 'YYYY-MM-DD'));
 INSERT INTO VENDEUR (id_vend, nomVend, email, telephone, boutique, date_inscription) VALUES (3, 'LivreMoi', 'contact@livremoi.ma', '0622334455', 'LivreMoi Librairie', TO_DATE('2024-02-28', 'YYYY-MM-DD'));
-INSERT INTO VENDEUR (id_vend, nomVend, email, telephone, boutique, date_inscription) VALUES (4, 'HomeDecor', 'info@homedecor.ma', '0677889900', 'HomeDecor & Co', TO_DATE('2024-03-05', 'YYYY-MM-DD'));
+INSERT INTO VENDEUR (id_vend, nomVend, email, telephone, boutique, date_inscription) VALUES (4, 'HomeDecor', 'info@homedecor.ma', '0677889900', 'HomeDecor and Co', TO_DATE('2024-03-05', 'YYYY-MM-DD'));
 INSERT INTO VENDEUR (id_vend, nomVend, email, telephone, boutique, date_inscription) VALUES (5, 'SportPlus', 'sav@sportplus.ma', '0644556677', 'SportPlus Equipments', TO_DATE('2024-04-12', 'YYYY-MM-DD'));
 
 --CLIENT
@@ -19,8 +19,8 @@ INSERT INTO CLIENT (id_cli, nomCli, email, telephone, adresse, date_inscription)
 INSERT INTO CATEGORIE (id_cat, nom) VALUES (1, 'Électronique');
 INSERT INTO CATEGORIE (id_cat, nom) VALUES (2, 'Mode');
 INSERT INTO CATEGORIE (id_cat, nom) VALUES (3, 'Livres');
-INSERT INTO CATEGORIE (id_cat, nom) VALUES (4, 'Maison & Cuisine');
-INSERT INTO CATEGORIE (id_cat, nom) VALUES (5, 'Sports & Loisirs');
+INSERT INTO CATEGORIE (id_cat, nom) VALUES (4, 'Maison and Cuisine');
+INSERT INTO CATEGORIE (id_cat, nom) VALUES (5, 'Sports and Loisirs');
 
 --PRODUIT
 INSERT INTO PRODUIT (id_prod, nomProd, description, prix, quantite_stock, id_vend, id_cat) VALUES (1001, 'Souris Gamer RGB', 'Souris optique avec éclairage RGB personnalisable', 350.00, 50, 1, 1);
